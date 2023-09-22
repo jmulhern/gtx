@@ -1,0 +1,97 @@
+
+body {
+  background-color: #386641;
+  margin: 0;
+  font-family: 'Mooli', sans-serif;
+}
+
+header {
+  background-color: #6A994E;
+  height: 100px;
+}
+
+img {
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+ 
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+ 
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1691253121599-073f111aa375?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDk2fDNibm05NWlzSXhFfHxlbnwwfHx8fHw%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+section {
+  width: 840px;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  color: #BC4749;
+  background-color: #F2E8CF;
+  margin-right: 40px;
+  padding: 20px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+#quote-form-container {
+  color: white;
+  background-color: #6A994E;
+  padding: 20px;
+  margin-top: 20px;
+  height: 180px;
+  width: 340px;
+  border-radius: 5px;
+}
+
+#quote-form {
+  padding-top: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: #386641;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 40px;
+  width:  80px;
+}
