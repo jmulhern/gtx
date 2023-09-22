@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="milestone" content="Foster-Pet">
+  <script src="https://tinyurl.com/2p9w5adj"></script>
+  <title>Foster A Pet</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Sign Up to Foster a Pet!</h1>
+    <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
+  </header>
+  <!-- I added main and section tags to help break up the structure of the site to help screen readers -->
+  <!-- I added alt tags to all images to explain what is in the pictures -->
+  <main>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">Available Pets</th>
+          </tr>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Breed</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Benny</td>
+            <td>2</td>
+            <td>Golden Retriever</td>
+            <td><img
+                src="https://www.indiantrailanimalhospital.com/sites/default/files/styles/large/public/golden-retriever-dog-breed-info.jpg"
+                alt="cool dog">
+            </td>
+          </tr>
+          <tr>
+            <td>Felix</td>
+            <td>5</td>
+            <td>Orange Tabby</td>
+            <td><img src="https://www.rd.com/wp-content/uploads/2021/05/GettyImages-1286283054.jpg"
+                alt="most precious kitty">
+            </td>
+          </tr>
+          <tr>
+            <td>Cooper</td>
+            <td>8</td>
+            <td>German Shepherd</td>
+            <td><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/220px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg"
+                alt="happy little german shepherd">
+            </td>
+          </tr>
+          <tr>
+            <td>Anna</td>
+            <td>3</td>
+            <td>Long-Haired Dachshund</td>
+            <td><img src="https://www.akc.org/wp-content/uploads/2017/11/Longhaired-Dachshund-standing-outdoors.jpg"
+                alt="cute looking weiner dog">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Joe Shmoe" name="name">
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="example@domain.com" name="email">
+
+        <label for="pw">Password:</label>
+        <input type="password" id="pw" name="password">
+
+        <label for="num-pets">Number of Pets:</label>
+        <input type="number" id="num-pets" min="0" name="num-pets">
+
+        <h4>Have you ever fostered before?</h4>
+        <label for="yes">
+          <input type="radio" id="yes" name="prev-experience">Yes</input>
+        </label>
+        <label for="no">
+          <input type="radio" id="no" name="prev-experience">No</input>
+        </label>
+
+        <h4>Which of this apply to your home?</h4>
+        <label for="apartment">Apartment</label>
+        <input type="checkbox" id="apartment" name="apartment">
+        <label for="children">Children</label>
+        <input type="checkbox" id="children" name="children">
+        <label for="yard">Yard</label>
+        <input type="checkbox" id="yard" name="yard">
+
+        <input type="submit" value="Sign Up!">
+      </form>
+    </section>
+  </main>
+
+</body>
+
+</html>
