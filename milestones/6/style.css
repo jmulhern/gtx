@@ -1,0 +1,110 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    background-color: #023047;
+}
+header {
+    background-color: #023047;
+    height: 70px;
+    letter-spacing: .05em;
+}
+header h1 {
+    font-size: 1.5em;
+    color: #fef9ef;
+    cursor: default;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+nav a {
+    color: #8ECAE6;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #fef9ef;
+    cursor: pointer;
+}
+
+main {
+    background-color: #fef9ef;
+    padding-bottom: 10px;
+}
+.hero {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("assets/hotel-room.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.overlay {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fef9ef;
+
+}
+.overlay .text {
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #219EBC;
+    font-style: italic;
+}
+.overlay .subtext {
+    font-size: 1.1em;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.paragraph {
+    margin: 3em 0;
+}
+.paragraph h2 {
+    margin:0 auto;
+    width: 70%;
+    font-size: 2em;
+    line-height: 1.45em;
+    color: rgb(64, 64, 64);
+}
+.paragraph p {
+    margin:0 auto;
+    width: 70%;
+    font-size: 1.05em;
+    line-height: 1.45em;
+    letter-spacing: .05em;
+    color: rgb(64, 64, 64);
+}
+img.right {
+    float: right;
+    margin: 0 0 15px 20px;
+    border-radius: 10px;
+}
+img.left {
+    float: left;
+    margin: 0 20px 15px 0;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #023047;
+    color: #fef9ef;
+    font-size: .75em;
+}
